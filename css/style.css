@@ -1,0 +1,136 @@
+body{
+  margin: 0 ;
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 95%)
+}
+h1{
+  margin-top: 50px;
+  line-height: 0.5;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+h4{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 50px;
+  font-size: 14.3px;
+}
+h5{
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;\
+}
+.sedans{
+  background-color: blue;
+  width: 200px;
+  position: absolute;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs{
+  background-color: red;
+  width: 200px;
+  position: absolute;
+  left: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: green;
+  width: 200px;
+  position: absolute;
+  left: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: hsl(179, 100%, 13%)
+}
+.attribution{
+  background-color: #495371;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 600px;
+  margin: 25px auto 0 auto;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14.3px;
+}
+.whole-container{
+  height: 555px;
+  position: relative;
+  left: 240px;
+  top: 80px;
+  width: 900px;
+  align-content: center;
+}
+.vectors{
+  margin-top: 50px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #e38826;
+  font-size: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  width: 100px;
+  font-size: 14.3px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #e38826;
+  color: white;
+}
+
+.btn2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #006970;
+  font-size: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  width: 100px;
+  font-size: 14.3px;
+  text-align: center;
+}
+
+.btn2:hover {
+  background: #006970;
+  color: white;
+}
+
+.btn3 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #004241;
+  font-size: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  width: 100px;
+  font-size: 14.3px;
+  text-align: center;
+}
+
+.btn3:hover {
+  background: #004241;
+  color: white;
+}
